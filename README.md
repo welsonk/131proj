@@ -1,5 +1,3 @@
-# Project Name
-- Name (@username)
-- Name (@username)
-- Name (@username)
-- Name (@username)
+# Recipe Maker Web Application
+- Ye Yuan (@liveyuanye)
+- Welson Kuang (@welsonk)
