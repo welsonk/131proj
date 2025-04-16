@@ -28,6 +28,7 @@
 Welson (1-5)
 
 1. User Registration
+- **Actor(s):** User and system.
 - **Pre-condition:** User has unused username, password, and email.
 - **Trigger:** User selects Sign Up option.
 - **Primary Sequence:**
@@ -42,6 +43,7 @@ Welson (1-5)
   3. The system prompts the user to enter a different password.
 ---
 2.  User Login
+- **Actor(s):** User and system.
 - **Pre-condition:** User knows their email and password.
 - **Trigger:** User selects Log In option.
 - **Primary Sequence:**
@@ -56,6 +58,7 @@ Welson (1-5)
   3. The system prompts the user to retry a different email/password.
 ---
 3. User Logout
+- **Actor(s):** User and system.
 - **Pre-condition:** User wants to log out.
 - **Trigger:** User selects Log Out option.
 - **Primary Sequence:**
@@ -70,6 +73,7 @@ Welson (1-5)
   3. The system notifies the user and is asked to try again.
 ---
 4. Create Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** User has a recipe.
 - **Trigger:** User selects Create Recipe option.
 - **Primary Sequence:**
@@ -85,6 +89,7 @@ Welson (1-5)
   4. The system prompts the user to properly fill out the form.
 ---
 5. Edit Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** User has an existing recipe they want to change.
 - **Trigger:** User selects Change Recipe.
 - **Primary Sequence:**
@@ -101,6 +106,7 @@ Welson (1-5)
   4. The system prompts the user to not leave any field blank.
 ---
 6. 
+- **Actor(s):** 
 - **Pre-condition:** 
 - **Trigger:** 
 - **Primary Sequence:**
@@ -110,6 +116,7 @@ Welson (1-5)
   1. 
 ---
 7. 
+- **Actor(s):** 
 - **Pre-condition:** 
 - **Trigger:** 
 - **Primary Sequence:**
@@ -119,6 +126,7 @@ Welson (1-5)
   1. 
 ---
 8. 
+- **Actor(s):** 
 - **Pre-condition:** 
 - **Trigger:** 
 - **Primary Sequence:**
@@ -128,6 +136,7 @@ Welson (1-5)
   1. 
 ---
 9. 
+- **Actor(s):** 
 - **Pre-condition:** 
 - **Trigger:** 
 - **Primary Sequence:**
@@ -137,6 +146,7 @@ Welson (1-5)
   1. 
 ---
 10. 
+- **Actor(s):** 
 - **Pre-condition:** 
 - **Trigger:** 
 - **Primary Sequence:**
