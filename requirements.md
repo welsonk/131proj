@@ -28,6 +28,7 @@
 Welson (1-5)
 
 1. User Registration
+- **Actor(s):** User and system.
 - **Pre-condition:** User has unused username, password, and email.
 - **Trigger:** User selects Sign Up option.
 - **Primary Sequence:**
@@ -42,6 +43,7 @@ Welson (1-5)
   3. The system prompts the user to enter a different password.
 ---
 2.  User Login
+- **Actor(s):** User and system.
 - **Pre-condition:** User knows their email and password.
 - **Trigger:** User selects Log In option.
 - **Primary Sequence:**
@@ -56,6 +58,7 @@ Welson (1-5)
   3. The system prompts the user to retry a different email/password.
 ---
 3. User Logout
+- **Actor(s):** User and system.
 - **Pre-condition:** User wants to log out.
 - **Trigger:** User selects Log Out option.
 - **Primary Sequence:**
@@ -70,6 +73,7 @@ Welson (1-5)
   3. The system notifies the user and is asked to try again.
 ---
 4. Create Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** User has a recipe.
 - **Trigger:** User selects Create Recipe option.
 - **Primary Sequence:**
@@ -85,6 +89,7 @@ Welson (1-5)
   4. The system prompts the user to properly fill out the form.
 ---
 5. Edit Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** User has an existing recipe they want to change.
 - **Trigger:** User selects Change Recipe.
 - **Primary Sequence:**
@@ -100,9 +105,10 @@ Welson (1-5)
   3. The user selects Save.
   4. The system prompts the user to not leave any field blank.
 ---
-
 Ye (6-10)
+
 6. Delete Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** User has an existing recipe they want to delete. 
 - **Trigger:** User selects the Delete Recipe option.
 - **Primary Sequence:**
@@ -118,6 +124,7 @@ Ye (6-10)
   4. The system notifies the user to loggin in and prompts them to try again.
 ---
 7. View Recipe
+- **Actor(s):** User and system.
 - **Pre-condition:** A recipe exists in the database.
 - **Trigger:** User selects a recipe to view its details.
 - **Primary Sequence:**
@@ -130,6 +137,7 @@ Ye (6-10)
   3. The system notifies the user of the error and prompts them to try again later.
 ---
 8. View All Recipes
+- **Actor(s):** User and system.
 - **Pre-condition:** Recipes exist in the database.
 - **Trigger:** User navigates to the homepage or selects the "View All Recipes" option.
 - **Primary Sequence:**
@@ -142,6 +150,7 @@ Ye (6-10)
   3. The system notifies the user of the error and prompts them to try again later.
 ---
 9. Edit User Profile
+- **Actor(s):** User and system.
 - **Pre-condition:** User wants to update their profile information.
 - **Trigger:** User selects the "Edit Profile" option.
 - **Primary Sequence:**
@@ -157,6 +166,7 @@ Ye (6-10)
   4. The system prompts the user to fill out all required fields.
 ---
 10. Save Recipe (Favorites)
+- **Actor(s):** User and system.
 - **Pre-condition:** User wants to save a recipe for quick access later.
 - **Trigger:** User selects the "Save Recipe" or "Favorite" option.
 - **Primary Sequence:**
