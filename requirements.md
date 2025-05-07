@@ -96,7 +96,7 @@ Welson (1-5)
   1. The system shows the user the selected recipe in an editable form.
   2. The user makes changes to the recipe.
   3. The user selects Save.
-  4. The system overwrites the existing recipe into the database.
+  4. The system saves the updated recipe information.
   5. The user is sent back to the main page.
 - **Primary Postconditions:** The changed recipe can now be viewed in replacement of the old recipe by all authenticated users.
 - **Alternate Sequence:**
