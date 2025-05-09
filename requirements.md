@@ -180,4 +180,33 @@ Ye (6-10)
   1. The user selects the recipe they want to save.
   2. The system fails to save the recipe due to a network issue.
   3. The system notifies the user of the failure and prompts them to try again later.
+---
+11. Rate Recipe
+- **Actor(s):** User and system.
+- **Pre-condition:** User is logged in and viewing a specific recipe they wish to rate.
+- **Trigger:** User selects a rating option (e.g., star rating) for the recipe.
+- **Primary Sequence:**
+  1. User selects their desired rating for the recipe.
+  2. System saves the rating and updates the recipe's overall average rating.
+  3. System notifies the user of successful submission and displays the updated rating on the recipe page.
+- **Primary Postconditions:** The user's rating is recorded, and the recipe's average rating is updated and visible.
+- **Alternate Sequence:**
+  1. User attempts to select a rating.
+  2. The system detects the user is not logged in.
+  3. The system prompts the user to log in or register to rate recipes.
+---
+12. Comment on Recipe
+- **Actor(s):** User and system.
+- **Pre-condition:** User is logged in and viewing a specific recipe they wish to comment on.
+- **Trigger:** User selects the "Add Comment" option for the recipe.
+- **Primary Sequence:**
+  1. User types and submits their comment.
+  2. System validates and saves the comment, associating it with the user and the recipe.
+  3. System notifies the user of successful posting and displays the new comment on the recipe page.
+- **Primary Postconditions:** The user's comment is saved and is visible to other authenticated users viewing the recipe.
+- **Alternate Sequence:**
+  1. User attempts to access the comment input field or submit a comment.
+  2. The system detects the user is not logged in.
+  3. The system prompts the user to log in or register to comment on recipes.
+
 
